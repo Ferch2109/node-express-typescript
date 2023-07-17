@@ -1,0 +1,29 @@
+{
+  "name": "node-express-typescript",
+  "version": "1.0.0",
+  "description": "Typescript practice along with node and express technologies. App related to Section 15 of [Understanding Typescript](https://www.udemy.com/share/101sTi3@3WXH8NzYG-y9BvrNMWAIncm9GAkLy4cXTfYqSW7d7h2zD8NUttReisFrRQZAf1TMQQ==/) course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferch2109/node-express-typescript.git"
+  },
+  "author": "ferch2109",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ferch2109/node-express-typescript/issues"
+  },
+  "homepage": "https://github.com/Ferch2109/node-express-typescript#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.2",
+    "nodemon": "^3.0.1"
+  }
+}
